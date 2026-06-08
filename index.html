@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Number Guessing Game</title>
+
+</head>
+<link rel="stylesheet" href="style.css" />
+<body>
+    <div class="container">
+        <h1> Number Guessing Game</h1>
+        <p class="info">
+            Guess a number between <b>1</b> and <b>100</b>
+        </p>
+        <div class="game-box">
+            <input type="number" id="guessField" placeholder="Enter your number" />
+            <button id="subt">Submit Guess</button>
+            <div class="result">
+                <p>Previous Guesses:
+                    <span class="guesses"></span>
+                </p>
+                <p>Remaining Attempts:
+                    <span class="lastResult">10</span>
+                </p>
+                <p class="lowOrHi"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
